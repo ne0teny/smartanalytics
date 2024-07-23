@@ -1,0 +1,571 @@
+.text5 {
+    align-self: stretch;
+    position: relative;
+    font-weight: 600;
+}
+.cozinac {
+    position: relative;
+    font-size: 17px;
+    font-weight: 600;
+    color: #fff;
+}
+.hello {
+    width: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 4px;
+}
+.bellIcon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 24px;
+    height: 24px;
+}
+.div {
+    position: relative;
+    font-weight: 500;
+}
+.wrapper {
+    position: absolute;
+    top: 0px;
+    left: 13px;
+    border-radius: 6px;
+    background-color: #ca3140;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 2px;
+}
+.notification {
+    width: 24px;
+    position: relative;
+    height: 24px;
+    text-align: center;
+    font-size: 11px;
+    color: #fff;
+    font-family: 'SF Pro Display';
+}
+.header {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 0;
+    color: #b8b8b8;
+}
+.pulseIcon {
+    width: 24px;
+    position: relative;
+    height: 24px;
+}
+.div1 {
+    align-self: stretch;
+    position: relative;
+    font-weight: 600;
+    display: inline-block;
+    height: 30px;
+    flex-shrink: 0;
+}
+.pulseParent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 4px;
+}
+.qab {
+    flex: 1;
+    border-radius: 12px;
+    background-color: #17181c;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 8px 16px;
+}
+.p {
+    margin: 0;
+}
+.percentParent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 4px;
+    z-index: 0;
+}
+.pro {
+    position: relative;
+    font-weight: 600;
+}
+.proWrapper {
+    margin: 0 !important;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 4px 5px;
+    background-image: url('Frame 1171275344.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    z-index: 1;
+    text-align: right;
+    font-size: 10px;
+    color: #0c0c0c;
+}
+.qab2 {
+    flex: 1;
+    border-radius: 12px;
+    background-color: #17181c;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 8px 16px;
+    position: relative;
+    gap: 4px;
+}
+.qabParent {
+    align-self: stretch;
+    height: 74px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+}
+.qabMainButton {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+    z-index: 1;
+}
+.container {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    z-index: 2;
+    font-size: 14px;
+}
+.qabContainer {
+    align-self: stretch;
+    height: 74px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+    z-index: 3;
+}
+.comp11Icon {
+    width: 39px;
+    position: relative;
+    height: 31px;
+    object-fit: cover;
+}
+.div11 {
+    position: relative;
+    font-size: 12px;
+    color: #b8b8b8;
+    text-align: right;
+}
+.premiumParent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 4px;
+}
+.comp11Parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+}
+.iconLinechevronRight {
+    width: 24px;
+    position: relative;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.pendingActions {
+    align-self: stretch;
+    backdrop-filter: blur(64px);
+    border-radius: 10px;
+    background-color: #17181c;
+    border: 1px solid #ffe500;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px;
+    z-index: 4;
+    font-size: 14px;
+}
+.top5Wrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    z-index: 5;
+    font-size: 14px;
+}
+.clockIcon {
+    width: 16px;
+    position: relative;
+    height: 16px;
+}
+.clockParent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 4px;
+    color: #fff;
+}
+.parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 6;
+    color: #b8b8b8;
+}
+.value {
+    position: relative;
+}
+.tapbarItem {
+    align-self: stretch;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 8px;
+}
+.tapbarItem1 {
+    align-self: stretch;
+    flex: 1;
+    border-radius: 4px;
+    background: linear-gradient(88.3deg, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.07));
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 8px;
+    color: #fff;
+}
+.segmentedpicker {
+    align-self: stretch;
+    border-radius: 8px;
+    border: 1px solid rgba(47, 47, 47, 0.6);
+    box-sizing: border-box;
+    height: 33px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 2px;
+    text-align: center;
+    color: #b8b8b8;
+}
+.pepeusdt {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    text-shadow: 0.1px 0 0 #fff, 0 0.1px 0 #fff, -0.1px 0 0 #fff, 0 -0.1px 0 #fff;
+}
+.div15 {
+    position: absolute;
+    top: 16.65px;
+    left: 0px;
+    font-size: 10px;
+    color: #b8b8b8;
+}
+.pepeusdtParent {
+    width: 202px;
+    position: relative;
+    height: 28.6px;
+}
+.groupWrapper {
+    width: 157px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 3px 0px;
+    box-sizing: border-box;
+}
+.div16 {
+    width: 146px;
+    position: relative;
+    display: inline-block;
+    height: 15px;
+    flex-shrink: 0;
+    text-shadow: 0.1px 0 0 #fff, 0 0.1px 0 #fff, -0.1px 0 0 #fff, 0 -0.1px 0 #fff;
+}
+.div17 {
+    align-self: stretch;
+    position: relative;
+    font-size: 10px;
+    color: #33a721;
+}
+.group {
+    width: 75px;
+    height: 29px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 2px;
+    text-align: right;
+}
+.frameParent {
+    align-self: stretch;
+    height: 36.3px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.top5TikerInfo {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.frame {
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.button {
+    align-self: stretch;
+    backdrop-filter: blur(64px);
+    border-radius: 12px;
+    background-color: #17181c;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    font-size: 14px;
+}
+.segmentedpickerParent {
+    align-self: stretch;
+    border-radius: 12px;
+    background-color: #17181c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 16px 12px;
+    gap: 13px;
+    z-index: 7;
+}
+.div32 {
+    position: relative;
+    font-size: 12px;
+    text-decoration: underline;
+    font-weight: 300;
+    color: #b8b8b8;
+}
+.parent5 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 8;
+    font-size: 14px;
+}
+.div33 {
+    width: 112px;
+    position: relative;
+    display: inline-block;
+}
+.wrapper1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.div34 {
+    width: 74px;
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+}
+.div35 {
+    width: 32px;
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    flex-shrink: 0;
+}
+.div36 {
+    width: 54px;
+    position: relative;
+    text-align: right;
+    display: inline-block;
+    flex-shrink: 0;
+}
+.impulseHistoryInfoimpulseH {
+    width: 301px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    color: #797979;
+}
+.combousdt {
+    width: 112px;
+    position: relative;
+    font-weight: 600;
+    display: inline-block;
+}
+.div37 {
+    position: relative;
+    line-height: 140%;
+    font-weight: 500;
+}
+.icon {
+    width: 16px;
+    position: relative;
+    height: 16px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.parent6 {
+    border-radius: 4px;
+    background-color: #33a721;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0px 2px;
+    font-size: 11px;
+}
+.combousdtParent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 4px;
+    color: #fff;
+}
+.div38 {
+    width: 74px;
+    position: relative;
+    font-weight: 600;
+    display: inline-block;
+    flex-shrink: 0;
+}
+.impulseHistoryInfo {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.parent7 {
+    border-radius: 4px;
+    background-color: #ca3140;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0px 2px;
+    font-size: 11px;
+}
+.button1 {
+    align-self: stretch;
+    backdrop-filter: blur(64px);
+    border-radius: 12px;
+    background: linear-gradient(88.3deg, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.07));
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    font-size: 14px;
+    color: #fff;
+}
+.impulse {
+    align-self: stretch;
+    border-radius: 12px;
+    background-color: #17181c;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 11px 12px;
+    gap: 16px;
+    z-index: 9;
+    color: #b8b8b8;
+}
+.tabOne {
+    width: 77.8px;
+    position: absolute;
+    margin: 0 !important;
+    top: 761px;
+    left: 0.52px;
+    height: 49px;
+    z-index: 10;
+}
+.home {
+    width: 100%;
+    position: relative;
+    background-color: #0a0c10;
+    height: 844px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0px 16px;
+    box-sizing: border-box;
+    gap: 16px;
+    text-align: left;
+    font-size: 12px;
+    color: #fff;
+    font-family: Inter;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=SF+Pro+Display:wght@500&display=swap');
+body {
+  	margin: 0; line-height: normal;
+}
